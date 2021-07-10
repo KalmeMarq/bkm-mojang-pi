@@ -10,12 +10,17 @@
   },
   "author": "KalmeMarq",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KalmeMarq/bkm-mojang-pi"
+  },
   "dependencies": {
     "@types/node": "^15.12.2",
     "axios": "^0.21.1",
     "typescript": "^4.3.2"
   },
   "keywords": [
+    "mojang",
     "mojang api",
     "typescript"
   ],

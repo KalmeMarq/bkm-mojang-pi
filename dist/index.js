@@ -12,17 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.OrdersNames = void 0;
 const axios_1 = __importDefault(require("axios"));
-var OrdersNames;
-(function (OrdersNames) {
-    OrdersNames["MCSold"] = "item_sold_minecraft";
-    OrdersNames["MCPreCard"] = "prepaid_card_redeemed_minecraft";
-    OrdersNames["CobaltSold"] = "item_sold_cobalt";
-    OrdersNames["CobaltPreCard"] = "prepaid_card_redeemed_cobalt";
-    OrdersNames["ScrollsSold"] = "item_sold_scrolls";
-    OrdersNames["DungeonsSold"] = "item_sold_dungeons";
-})(OrdersNames = exports.OrdersNames || (exports.OrdersNames = {}));
 class MojangAPI {
     static getOrdersStats(...orders) {
         return __awaiter(this, void 0, void 0, function* () {
