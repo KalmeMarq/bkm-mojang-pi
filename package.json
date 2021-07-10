@@ -1,0 +1,26 @@
+{
+  "name": "bkm-mojang-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "KalmeMarq",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "axios": "^0.21.1",
+    "typescript": "^4.3.2"
+  },
+  "keywords": [
+    "mojang api",
+    "typescript"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6"
+  }
+}
